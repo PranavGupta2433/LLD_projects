@@ -208,7 +208,7 @@ class TicTacToe_game:
 
 
 
-# 🏗️ Factory Pattern
+# Factory Pattern
 class TicTacToeGameFactory:
     @staticmethod
     def create_game(game_type, board_size):
@@ -216,7 +216,7 @@ class TicTacToeGameFactory:
             return TicTacToe_game(board_size)
         return None
 
-# 🚀 Start the Game
+# Start the Game
 if __name__ == "__main__":
     print("=== TIC TAC TOE GAME ===")
     board_size = int(input("Enter board size (e.g., 3 for 3x3): "))
